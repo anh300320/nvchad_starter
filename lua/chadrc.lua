@@ -6,8 +6,17 @@
 local M = {}
 
 M.base46 = {
-	theme = "onedark",
+	theme = "tokyonight",
+  
+  hl_override = {
+    ["@variable.member"] = {
+      fg = "#7aa2f7",
+    },
 
+    ["@property"] = {
+      fg = "#7aa2f7",
+    },
+  },
 	-- hl_override = {
 	-- 	Comment = { italic = true },
 	-- 	["@comment"] = { italic = true },
